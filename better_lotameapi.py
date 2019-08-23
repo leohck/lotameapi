@@ -30,7 +30,7 @@ AUTH_URL = 'https://crowdcontrol.lotame.com/auth/v1/tickets'
 TGT = ''
 
 
-def authenticate(username="lblack@ad3plus.com", password="24021684Leo@"):
+def authenticate(username="", password=""):
     """Authenticate with the Lotame API.
     Args:
         username: your Lotame username (email address)
