@@ -1,27 +1,6 @@
 #  Copyright (c)  20/8/2019
 #  Created by: Leonardo Black | 21 years old  | Computer Engineer
 
-'''
-    Please note that this file is an example, not an official Lotame-supported
-    tool. The Support team at Lotame does not provide support for this script,
-    as it's only meant to serve as a guide to help you use the Services API.
-    Filename: better_lotameapi.py
-    Author: Brett Coker
-    Version: 1.1.5
-    Python Version: 3.6.1
-    A better Python interface for the Lotame API.
-    Call authenticate(username, password) once in order to authenticate, and
-    don't worry about passing around credentials or tickets after that.
-    Call any of the four main requests by passing in an endpoint as an
-    parameter. If you need to send a JSON file (or Python dict) along with your
-    request, use that as the second parameter.
-    The objects returned from the four main requests are Resonse objects. This
-    decision was made so that status codes and the like could be read. If you
-    need the response JSON, just use .json() on the resulting object.
-    Please be sure to cleanup() after yourself when you're done.
-'''
-
-
 import json
 import requests
 
